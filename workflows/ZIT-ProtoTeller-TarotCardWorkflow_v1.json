@@ -169,6 +169,30 @@
       "bgcolor": "#000"
     },
     {
+      "id": 260,
+      "type": "MarkdownNote",
+      "pos": [
+        3226.581229162666,
+        1985.1966588998107
+      ],
+      "size": [
+        436.3279314507862,
+        507.7922165879427
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model Links",
+      "properties": {},
+      "widgets_values": [
+        "## Model Links\n\n**Diffusion Model**\n\n- [z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)\n\n**Text Encoders**\n\n- [gemma_3_12B_it_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors)\n- [qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n**LoRAs**\n\n- [PNTE_neg_ZiT_A_v1.safetensors](https://huggingface.co/DoctorDiffusion/Z-Image-Turbo-PNTE-Negative-LoRA/resolve/main/PNTE_neg_ZiT_A_v1.safetensors)\n- [trtcrd_zimage_dedistilled_lora_v001.safetensors](https://civitai.com/api/download/models/2815759?type=Model&format=SafeTensor)\n\n**VAE**\n- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/vae/ae.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── z_image_turbo_bf16.safetensors\n│   ├── 📂 clip/\n│   │   ├── gemma_3_12B_it_fp8_scaled.safetensors\n│   │   └── qwen_3_4b.safetensors\n│   ├── 📂 loras/\n│   │   ├── PNTE_neg_ZiT_A_v1.safetensors\n│   │   └── trtcrd_zimage_dedistilled_lora_v001.safetensors\n│   └── 📂 vae/\n│       └── ae.safetensors\n├── 📂 custom_nodes/\n│   ├── 📂 ComfyUI-ProtoTeller/\n```\n- Github: [ComfyUI-ProtoTeller](https://github.com/DoctorDiffusion/ComfyUI-ProtoTeller)\n\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
       "id": 187,
       "type": "3e7ac94f-74e2-43b0-afe1-1464fa014d23",
       "pos": [
@@ -180,7 +204,7 @@
         646
       ],
       "flags": {},
-      "order": 0,
+      "order": 1,
       "mode": 0,
       "inputs": [
         {
@@ -429,8 +453,8 @@
         "ver": "0.16.1"
       },
       "widgets_values": [
-        "trtcrd_zimage_dedistilled_lora_v001.safetensors",
-        "gemma_3_12B_it_fp8_scaled.safetensors",
+        "",
+        "zimage\\z_image_turbo_bf16.safetensors",
         "",
         1,
         1152,
@@ -445,30 +469,6 @@
         "gemma_3_12B_it_fp8_scaled.safetensors",
         "",
         1
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 260,
-      "type": "MarkdownNote",
-      "pos": [
-        3226.581229162666,
-        1985.1966588998107
-      ],
-      "size": [
-        436.3279314507862,
-        507.7922165879427
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model Links",
-      "properties": {},
-      "widgets_values": [
-        "## Model Links\n\n**Diffusion Model**\n\n- [z_image_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/diffusion_models/z_image_bf16.safetensors)\n\n**Text Encoders**\n\n- [gemma_3_12B_it_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors)\n- [qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)\n\n**LoRAs**\n\n- [PNTE_neg_ZiT_A_v1.safetensors](https://huggingface.co/DoctorDiffusion/Z-Image-Turbo-PNTE-Negative-LoRA/resolve/main/PNTE_neg_ZiT_A_v1.safetensors)\n- [trtcrd_zimage_dedistilled_lora_v001.safetensors](https://civitai.com/api/download/models/2815759?type=Model&format=SafeTensor)\n\n**VAE**\n- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image/resolve/main/split_files/vae/ae.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── z_image_turbo_bf16.safetensors\n│   ├── 📂 clip/\n│   │   ├── gemma_3_12B_it_fp8_scaled.safetensors\n│   │   └── qwen_3_4b.safetensors\n│   ├── 📂 loras/\n│   │   ├── PNTE_neg_ZiT_A_v1.safetensors\n│   │   └── trtcrd_zimage_dedistilled_lora_v001.safetensors\n│   └── 📂 vae/\n│       └── ae.safetensors\n├── 📂 custom_nodes/\n│   ├── 📂 ComfyUI-ProtoTeller/\n```\n- Github: [ComfyUI-ProtoTeller](https://github.com/DoctorDiffusion/ComfyUI-ProtoTeller)\n\n"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -574,7 +574,7 @@
           "bounding": [
             -993.0977530696032,
             762.8503630097837,
-            136.80596923828125,
+            136.98332977294922,
             360
           ]
         },
@@ -583,7 +583,7 @@
           "bounding": [
             2108.9987812910745,
             758.8309454592998,
-            132.5223846435547,
+            132.66666412353516,
             200
           ]
         },
@@ -596,7 +596,7 @@
               321
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               782.8503630097837
             ]
           },
@@ -608,7 +608,7 @@
               322
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               802.8503630097837
             ]
           },
@@ -620,7 +620,7 @@
               323
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               822.8503630097837
             ]
           },
@@ -632,7 +632,7 @@
               324
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               842.8503630097837
             ]
           },
@@ -645,7 +645,7 @@
               343
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               862.8503630097837
             ]
           },
@@ -657,7 +657,7 @@
               326
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               882.8503630097837
             ]
           },
@@ -669,7 +669,7 @@
               327
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               902.8503630097837
             ]
           },
@@ -681,7 +681,7 @@
               487
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               922.8503630097837
             ]
           },
@@ -693,7 +693,7 @@
               329
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               942.8503630097837
             ]
           },
@@ -705,7 +705,7 @@
               482
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               962.8503630097837
             ]
           },
@@ -717,7 +717,7 @@
               483
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               982.8503630097837
             ]
           },
@@ -729,7 +729,7 @@
               488
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               1002.8503630097837
             ]
           },
@@ -744,7 +744,7 @@
               530
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               1022.8503630097837
             ]
           },
@@ -759,7 +759,7 @@
               533
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               1042.8503630097837
             ]
           },
@@ -774,7 +774,7 @@
               536
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               1062.8503630097837
             ]
           },
@@ -789,7 +789,7 @@
               539
             ],
             "pos": [
-              -876.2917838313219,
+              -876.114423296654,
               1082.8503630097837
             ]
           }
@@ -1188,55 +1188,6 @@
             ],
             "color": "#222",
             "bgcolor": "#000"
-          },
-          {
-            "id": 49,
-            "type": "UNETLoader",
-            "pos": [
-              -769.4050338995612,
-              821.1000921567272
-            ],
-            "size": [
-              210,
-              82
-            ],
-            "flags": {},
-            "order": 51,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "unet_name",
-                "name": "unet_name",
-                "type": "COMBO",
-                "widget": {
-                  "name": "unet_name"
-                },
-                "link": 322
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "MODEL",
-                "name": "MODEL",
-                "type": "MODEL",
-                "slot_index": 0,
-                "links": [
-                  240
-                ]
-              }
-            ],
-            "title": "Load Z-Image Trubo",
-            "properties": {
-              "cnr_id": "comfy-core",
-              "ver": "0.16.1",
-              "Node name for S&R": "UNETLoader"
-            },
-            "widgets_values": [
-              "gemma_3_12B_it_fp8_scaled.safetensors",
-              "default"
-            ],
-            "color": "#223",
-            "bgcolor": "#335"
           },
           {
             "id": 46,
@@ -6676,7 +6627,7 @@
               "Node name for S&R": "PrimitiveString"
             },
             "widgets_values": [
-              "trtcrd_zimage_dedistilled_lora_v001.safetensors"
+              ""
             ],
             "color": "#323",
             "bgcolor": "#535"
@@ -7036,6 +6987,55 @@
             ],
             "color": "#222",
             "bgcolor": "#000"
+          },
+          {
+            "id": 49,
+            "type": "UNETLoader",
+            "pos": [
+              -769.4050338995612,
+              821.1000921567272
+            ],
+            "size": [
+              210,
+              82
+            ],
+            "flags": {},
+            "order": 51,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "unet_name",
+                "name": "unet_name",
+                "type": "COMBO",
+                "widget": {
+                  "name": "unet_name"
+                },
+                "link": 322
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "MODEL",
+                "name": "MODEL",
+                "type": "MODEL",
+                "slot_index": 0,
+                "links": [
+                  240
+                ]
+              }
+            ],
+            "title": "Load Z-Image Trubo",
+            "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.16.1",
+              "Node name for S&R": "UNETLoader"
+            },
+            "widgets_values": [
+              "zimage\\z_image_turbo_bf16.safetensors",
+              "default"
+            ],
+            "color": "#223",
+            "bgcolor": "#335"
           }
         ],
         "groups": [
@@ -8825,10 +8825,10 @@
     "VHS_MetadataImage": true,
     "VHS_KeepIntermediate": true,
     "ds": {
-      "scale": 0.7218647651827206,
+      "scale": 0.6562406956206551,
       "offset": [
-        -2672.9321585715024,
-        -1233.1397910090852
+        -2555.367788879116,
+        -976.1336087637505
       ]
     }
   },
