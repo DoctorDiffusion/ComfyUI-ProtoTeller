@@ -1,6 +1,8 @@
 # ComfyUI-ProtoTeller
 Custom ComfyUI nodes for a tarot card reader workflow.
 
+<img width="1961" height="1207" alt="Screenshot 2026-04-05 193844" src="https://github.com/user-attachments/assets/5a6923e2-8832-4efe-adbd-3018d133d4d4" />
+
 Install to ComfyUI custom_nodes folder.
 
 ## Model Links
